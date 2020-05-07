@@ -10,7 +10,7 @@
     "authorIcon"        : "The author icon",
     "email"             : "info@ecommon.de",
     "phone"             : "+491711573795",
-    "serviceProvider"   : "",
+    "serviceProvider"   : "Mandantchanger\\Providers\\MandantchangerServiceProvider",
     "containers"        : [],
     "dataProviders"     : [],
     "javaScriptFiles"   : [],
