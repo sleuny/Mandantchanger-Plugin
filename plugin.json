@@ -1,0 +1,20 @@
+{
+    "name"              : "Mandantchanger",
+    "namespace"         : "Mandantchanger",
+    "type"              : "backend",
+    "version"           : "1.0.0",
+    "isClosedSource"    : "false",
+    "pluginIcon"        : "The plugin icon",
+    "description"       : "Ändere einfach die Mandanten deiner Aufträge per Ereignisaktion",
+    "author"            : "ecommon Sven Leunig",
+    "authorIcon"        : "The author icon",
+    "email"             : "info@ecommon.de",
+    "phone"             : "+491711573795",
+    "serviceProvider"   : "",
+    "containers"        : [],
+    "dataProviders"     : [],
+    "javaScriptFiles"   : [],
+    "require"           : [],
+    "dependencies"      : [],
+    "runOnBuild"        : []
+}
