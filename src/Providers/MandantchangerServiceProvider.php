@@ -18,6 +18,7 @@ class MandantchangerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->getApplication()->register(MandantchangerRouteServiceProvider::class);
+        $this->getApplication()->bind(MandantchangerRepositoryContract::class, MandantchangerRepository::class);
     }
     /**
      * @param EventProceduresService $eventProceduresService

@@ -12,4 +12,13 @@ class ContentController extends Controller
     {
         return $twig->render('Mandantchanger::content.hello');
     }
+     /**
+     * @param MandantchangerRepositoryContract $mandantRepo
+     * @return array
+     */
+    public function getWebstores(MandantchangerRepositoryContract $mandantRepo): array
+    {
+        $webstores = $mandantRepo->getWebstores();
+        return $webstores;
+    }
 }

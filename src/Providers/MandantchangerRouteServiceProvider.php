@@ -11,5 +11,6 @@ class MandantchangerRouteServiceProvider extends RouteServiceProvider
     public function map(Router $router)
     {
         $router->get('hello','Mandantchanger\Controllers\ContentController@sayHello');
+        $router->get('plentyIdList','Mandantchanger\Controllers\ContentController@plentyIdList');
     }
 }
