@@ -6,7 +6,7 @@ namespace Mandantchanger\Providers;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Modules\EventProcedures\Services\EventProceduresService;
 use Plenty\Modules\EventProcedures\Services\Entries\ProcedureEntry;
-use ProcedurePlugin\EventProcedures\Procedures;
+use Mandantchanger\EventProcedures\Procedures;
  
 class MandantchangerServiceProvider extends ServiceProvider
 {
